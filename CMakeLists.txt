@@ -399,7 +399,7 @@ endif()
 subdirs(src)
 subdirs(examples)
 subdirs(tools)
-subdirs(man)
+#subdirs(man)
 
 if(NOT WIN32)
 	if(CMAKE_BUILD_TYPE STREQUAL "Debug")
